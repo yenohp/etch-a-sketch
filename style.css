@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    width: 500px;
+    height: 500px;
+}
+
+.outer {
+    flex: 1;
+    display: flex;
+    background-color: green;
+}
+
+.inner {
+    flex: 1 1 0;
+    background-color: yellow;
+
+}
