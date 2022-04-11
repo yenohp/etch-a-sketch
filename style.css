@@ -2,26 +2,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
     margin: 10px 0;
+}
+
+button {
+    margin: 10px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000000;
-    width: 500px;
-    height: 500px;
+    border: 1px solid hsl(0, 0%, 0%);
+    width: 600px;
+    height: 600px;
 }
 
 .outer {
     flex: 1;
     display: flex;
-    background-color: green;
+
 }
 
 .inner {
     flex: 1 1 0;
-    background-color: yellow;
+
 
 }
