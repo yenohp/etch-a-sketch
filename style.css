@@ -4,9 +4,21 @@ body {
     justify-content: center;
     margin: 10px 0;
 }
-
+.userInterface{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
 button {
     margin: 10px;
+}
+
+.sizeContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    border: 1px solid black;
 }
 
 .container {
@@ -16,6 +28,7 @@ button {
     border: 1px solid hsl(0, 0%, 0%);
     width: 600px;
     height: 600px;
+    margin-top: 50px;
 }
 
 .outer {
