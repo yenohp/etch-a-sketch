@@ -15,7 +15,6 @@ function makeGrid(divCount) {
         for (let j = 0; j < divCount; j++) {
             const inner = document.createElement('div');
             inner.classList.add('inner');
-            inner.innerText = 1;
             outer.appendChild(inner);
         }
     }
